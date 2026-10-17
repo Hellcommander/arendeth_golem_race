@@ -1,0 +1,57 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"stackable",
+		"usable",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"magic_slots": 0,
+		"resources": [
+			{
+				"amount": 1,
+				"id": "2004"
+			}
+		],
+		"time": 10,
+		"tools": []
+	},
+	"description": "A pot of glowing, self-hardening putty. Slap it over a crack and it knits the damage shut over time.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 20
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Repair_Putty",
+	"item": {
+		"image": 20,
+		"type": 17
+	},
+	"minimap_pixel": [
+		160,
+		170,
+		120
+	],
+	"name": "Repair Putty",
+	"usable": {
+		"ability": "arendeth_golem_Putty_Patch",
+		"recipe": ""
+	},
+	"value": 600,
+	"weight": 0.3
+}

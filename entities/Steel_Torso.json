@@ -1,0 +1,97 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 1,
+		"fire": 4,
+		"frost": 2,
+		"holy": 0,
+		"parry": 0,
+		"physical": 8,
+		"poison": 0,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 1,
+				"id": 2
+			}
+		],
+		"resources": [
+			{
+				"amount": 5,
+				"id": "149"
+			}
+		],
+		"time": 100,
+		"tools": [
+			1
+		]
+	},
+	"description": "A golem's torso, forged and bolted from steel.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 7
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Steel_Torso",
+	"item": {
+		"image": 7,
+		"type": 27
+	},
+	"minimap_pixel": [
+		124,
+		140,
+		166
+	],
+	"name": "Steel Torso",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			6,
+			6
+		],
+		"intelligence": [
+			0,
+			0
+		],
+		"strength": [
+			0,
+			0
+		],
+		"willpower": [
+			0,
+			0
+		]
+	},
+	"value": 13000,
+	"weight": 7.0
+}

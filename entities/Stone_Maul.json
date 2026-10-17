@@ -1,0 +1,78 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"usable",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 4,
+				"id": 6
+			}
+		],
+		"resources": [],
+		"time": 75,
+		"tools": [
+			6
+		]
+	},
+	"description": "A golem's hand, hewn from quarried stone. Swings like a quarry hammer and can stun.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 13
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Stone_Maul",
+	"item": {
+		"image": 13,
+		"type": 29
+	},
+	"minimap_pixel": [
+		132,
+		134,
+		142
+	],
+	"name": "Stone Maul",
+	"usable": {
+		"ability": "8",
+		"recipe": ""
+	},
+	"value": 2640,
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 9,
+				"dmg_min": 4,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 2
+	},
+	"weight": 5.0
+}

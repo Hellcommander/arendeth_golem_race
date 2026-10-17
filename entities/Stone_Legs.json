@@ -1,0 +1,92 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 0,
+		"frost": 2,
+		"holy": 0,
+		"parry": 0,
+		"physical": 3,
+		"poison": 0,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 4,
+				"id": 6
+			}
+		],
+		"resources": [],
+		"time": 70,
+		"tools": [
+			6
+		]
+	},
+	"description": "A pair of golem's legs, hewn from quarried stone.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 9
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Stone_Legs",
+	"item": {
+		"image": 9,
+		"type": 28
+	},
+	"minimap_pixel": [
+		132,
+		134,
+		142
+	],
+	"name": "Stone Legs",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			0,
+			0
+		],
+		"intelligence": [
+			0,
+			0
+		],
+		"strength": [
+			2,
+			2
+		],
+		"willpower": [
+			0,
+			0
+		]
+	},
+	"value": 2400,
+	"weight": 6.0
+}

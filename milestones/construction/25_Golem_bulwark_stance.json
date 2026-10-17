@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_golem_bulwark_stance",
+	"name": "Bulwark Stance",
+	"requirements": {
+		"milestones": [],
+		"skill": 25
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_golem_Bulwark_Stance"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,71 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 2,
+				"id": "2004"
+			}
+		],
+		"time": 35,
+		"tools": []
+	},
+	"description": "A golem's hand, shaped by hand from wet clay. Heavy knuckles, no trick to it. Equip it in either hand slot.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 12
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Clay_Fist",
+	"item": {
+		"image": 12,
+		"type": 29
+	},
+	"minimap_pixel": [
+		184,
+		112,
+		74
+	],
+	"name": "Clay Fist",
+	"value": 880,
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 5,
+				"dmg_min": 2,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 6
+	},
+	"weight": 3.0
+}

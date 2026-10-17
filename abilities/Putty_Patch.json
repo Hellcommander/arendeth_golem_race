@@ -1,0 +1,20 @@
+{
+	"animation": "core_2_Better_bandage",
+	"cast_time": 1.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Repair putty hardens over your wounds, restoring ::regeneration health periodically for ::duration turns.",
+	"duration": 100.0,
+	"effects": {
+		"regeneration": 6.0
+	},
+	"id": "arendeth_golem_Putty_Patch",
+	"image": 1,
+	"name": "Putty Patch",
+	"range": 0,
+	"skill": "",
+	"target": "self"
+}

@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_golem_rapid_repair",
+	"name": "Rapid Repair",
+	"requirements": {
+		"milestones": [],
+		"skill": 22
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_golem_rapid_repair"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,24 @@
+{
+	"animation": "core_2_Frenzy",
+	"cast_time": 0.2,
+	"cooldown": 30.0,
+	"cost": {
+		"health": 0,
+		"stamina": 25
+	},
+	"description": "Run your joints hot, increasing your attack speed by ::attack_speed for ::duration turns.",
+	"duration": 6.0,
+	"effects": {
+		"attack_speed": -0.25
+	},
+	"id": "arendeth_golem_Overclock",
+	"image": 2,
+	"name": "Overclock",
+	"range": 0,
+	"skill": "core_2_construction",
+	"slots": {
+		"offensive": 2,
+		"utility": 1
+	},
+	"target": "self"
+}

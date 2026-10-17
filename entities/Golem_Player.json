@@ -1,0 +1,155 @@
+{
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2747",
+	"description": "A person of clay, stone and metal, assembled rather than born. Their parts can be swapped out.",
+	"dialogues": [],
+	"equipment": {
+		"custom_slots": [
+			"core_2_golem_hand",
+			"core_2_golem_head",
+			"core_2_golem_legs",
+			"core_2_golem_torso",
+			"arendeth_golem_offhand"
+		],
+		"disabled_slots": [
+			1,
+			2,
+			4,
+			6,
+			7,
+			8,
+			9,
+			10,
+			14,
+			15,
+			16,
+			17,
+			18
+		]
+	},
+	"experience_gainer": {
+		"exp": 0,
+		"level": 1
+	},
+	"fighter": {
+		"attackNames": [
+			"Punch",
+			"Slam"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 21
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 120,
+	"humanoid": {
+		"race": "arendeth_golem_Golem"
+	},
+	"id": "arendeth_golem_Golem_Player",
+	"minimap_pixel": [
+		149,
+		165,
+		101
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Golem",
+	"persona": {
+		"occupation": "None"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": false,
+		"range": 10,
+		"threesixty": false
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			10,
+			14
+		],
+		"endurance": [
+			16,
+			20
+		],
+		"intelligence": [
+			10,
+			14
+		],
+		"strength": [
+			16,
+			20
+		],
+		"willpower": [
+			12,
+			16
+		]
+	},
+	"tags": [
+		"9",
+		"3",
+		"32",
+		"arendeth_golem_tag"
+	],
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 5,
+				"dmg_min": 2,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 6
+	}
+}

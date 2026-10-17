@@ -1,0 +1,92 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 2,
+		"frost": 3,
+		"holy": 0,
+		"parry": 0,
+		"physical": 5,
+		"poison": 0,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 6,
+				"id": 6
+			}
+		],
+		"resources": [],
+		"time": 80,
+		"tools": [
+			6
+		]
+	},
+	"description": "A golem's torso, hewn from quarried stone.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 5
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Stone_Torso",
+	"item": {
+		"image": 5,
+		"type": 27
+	},
+	"minimap_pixel": [
+		132,
+		134,
+		142
+	],
+	"name": "Stone Torso",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			3,
+			3
+		],
+		"intelligence": [
+			0,
+			0
+		],
+		"strength": [
+			0,
+			0
+		],
+		"willpower": [
+			0,
+			0
+		]
+	},
+	"value": 2400,
+	"weight": 9.0
+}

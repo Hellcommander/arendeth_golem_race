@@ -1,0 +1,38 @@
+{
+	"graphics": {
+		"tilesheets": [
+			{
+				"file": "assets/abilities.png",
+				"name": "abilities",
+				"tiles": [
+					4,
+					1
+				]
+			},
+			{
+				"file": "assets/passive_skills.png",
+				"name": "passive_skills",
+				"tiles": [
+					5,
+					1
+				]
+			},
+			{
+				"file": "assets/glyphs.png",
+				"name": "glyph32",
+				"tiles": [
+					27,
+					1
+				]
+			},
+			{
+				"file": "assets/items.png",
+				"name": "items",
+				"tiles": [
+					21,
+					1
+				]
+			}
+		]
+	}
+}

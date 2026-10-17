@@ -1,0 +1,28 @@
+{
+	"id": "arendeth_golem_steel_frame",
+	"name": "Steel Golem Frame",
+	"requirements": {
+		"milestones": [],
+		"skill": 28
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_golem_Steel_Head"
+		},
+		{
+			"recipe": "arendeth_golem_Steel_Torso"
+		},
+		{
+			"recipe": "arendeth_golem_Steel_Legs"
+		},
+		{
+			"recipe": "arendeth_golem_Steel_Hammer"
+		},
+		{
+			"recipe": "arendeth_golem_Steel_Aegis"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

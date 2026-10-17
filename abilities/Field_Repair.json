@@ -1,0 +1,26 @@
+{
+	"animation": "core_2_Better_bandage",
+	"cast_time": 1.0,
+	"cooldown": 30.0,
+	"cost": {
+		"health": 0,
+		"stamina": 20
+	},
+	"description": "Patch your cracks with whatever you can reach. Restore ::heal health.",
+	"duration": 0.0,
+	"effects": {
+		"heal": [
+			25,
+			40
+		]
+	},
+	"id": "arendeth_golem_Field_Repair",
+	"image": 0,
+	"name": "Field Repair",
+	"range": 0,
+	"skill": "core_2_construction",
+	"slots": {
+		"utility": 2
+	},
+	"target": "self"
+}

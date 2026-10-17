@@ -1,0 +1,24 @@
+{
+	"animation": "core_2_Better_bandage",
+	"cast_time": 0.2,
+	"cooldown": 40.0,
+	"cost": {
+		"health": 0,
+		"stamina": 20
+	},
+	"description": "Plant your feet and harden your plating, reducing damage you take by ::damage_reduce_percent% for ::duration turns.",
+	"duration": 8.0,
+	"effects": {
+		"damage_reduce_percent": 0.3
+	},
+	"id": "arendeth_golem_Bulwark_Stance",
+	"image": 3,
+	"name": "Bulwark Stance",
+	"range": 0,
+	"skill": "core_2_construction",
+	"slots": {
+		"defensive": 2,
+		"utility": 1
+	},
+	"target": "self"
+}

@@ -1,0 +1,91 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 0,
+		"frost": 1,
+		"holy": 0,
+		"parry": 2,
+		"physical": 3,
+		"poison": 0,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"usable",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 5,
+				"id": 6
+			}
+		],
+		"resources": [],
+		"time": 70,
+		"tools": [
+			6
+		]
+	},
+	"description": "A golem's hand shaped into a guard, hewn from quarried stone. Slam it into a foe to knock them back.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 17
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Stone_Slab",
+	"item": {
+		"image": 17,
+		"type": 29
+	},
+	"minimap_pixel": [
+		132,
+		134,
+		142
+	],
+	"name": "Stone Slab",
+	"usable": {
+		"ability": "36",
+		"recipe": ""
+	},
+	"value": 2640,
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 3,
+				"dmg_min": 0,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 8
+	},
+	"weight": 5.0
+}

@@ -1,0 +1,28 @@
+{
+	"id": "arendeth_golem_bronze_frame",
+	"name": "Bronze Golem Frame",
+	"requirements": {
+		"milestones": [],
+		"skill": 20
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_golem_Bronze_Head"
+		},
+		{
+			"recipe": "arendeth_golem_Bronze_Torso"
+		},
+		{
+			"recipe": "arendeth_golem_Bronze_Legs"
+		},
+		{
+			"recipe": "arendeth_golem_Bronze_Cleaver"
+		},
+		{
+			"recipe": "arendeth_golem_Bronze_Bulwark"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

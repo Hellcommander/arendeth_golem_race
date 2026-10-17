@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_golem_field_repair",
+	"name": "Field Repair",
+	"requirements": {
+		"milestones": [],
+		"skill": 10
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_golem_Field_Repair"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

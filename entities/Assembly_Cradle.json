@@ -1,0 +1,70 @@
+{
+	"category_id": 6,
+	"components": [
+		"collidable",
+		"craftable",
+		"glyph",
+		"height",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"producer"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resource_types": [
+			{
+				"amount": 8,
+				"id": 6
+			}
+		],
+		"resources": [
+			{
+				"amount": 4,
+				"id": "2004"
+			}
+		],
+		"time": 120,
+		"tools": []
+	},
+	"description": "A stone cradle with iron clamps and an empty heart socket, built from stone and clay. Perform the Golem Assembly ritual here to leave your flesh behind and be rebuilt as a golem. Unlocked by Construction level 10.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 26
+			}
+		],
+		"random_frame_start": false
+	},
+	"height": 0,
+	"id": "arendeth_golem_Assembly_Cradle",
+	"minimap_pixel": [
+		132,
+		134,
+		142
+	],
+	"name": "Assembly Cradle",
+	"producer": {
+		"products": {
+			"arendeth_golem_become_golem": [
+				{
+					"amount": [
+						0,
+						0
+					],
+					"id": "",
+					"percent_chance": 0
+				}
+			]
+		},
+		"time": 60
+	}
+}

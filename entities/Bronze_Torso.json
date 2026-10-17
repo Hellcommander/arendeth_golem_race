@@ -1,0 +1,97 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 3,
+		"frost": 1,
+		"holy": 0,
+		"parry": 0,
+		"physical": 7,
+		"poison": 0,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 1,
+				"id": 2
+			}
+		],
+		"resources": [
+			{
+				"amount": 4,
+				"id": "2114"
+			}
+		],
+		"time": 90,
+		"tools": [
+			1
+		]
+	},
+	"description": "A golem's torso, cast and riveted from bronze.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 6
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Bronze_Torso",
+	"item": {
+		"image": 6,
+		"type": 27
+	},
+	"minimap_pixel": [
+		186,
+		130,
+		56
+	],
+	"name": "Bronze Torso",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			4,
+			4
+		],
+		"intelligence": [
+			0,
+			0
+		],
+		"strength": [
+			0,
+			0
+		],
+		"willpower": [
+			0,
+			0
+		]
+	},
+	"value": 6500,
+	"weight": 7.5
+}

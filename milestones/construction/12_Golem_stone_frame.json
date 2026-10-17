@@ -1,0 +1,28 @@
+{
+	"id": "arendeth_golem_stone_frame",
+	"name": "Stone Golem Frame",
+	"requirements": {
+		"milestones": [],
+		"skill": 12
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_golem_Stone_Head"
+		},
+		{
+			"recipe": "arendeth_golem_Stone_Torso"
+		},
+		{
+			"recipe": "arendeth_golem_Stone_Legs"
+		},
+		{
+			"recipe": "arendeth_golem_Stone_Maul"
+		},
+		{
+			"recipe": "arendeth_golem_Stone_Slab"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

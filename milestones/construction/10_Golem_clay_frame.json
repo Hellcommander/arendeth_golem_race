@@ -1,0 +1,31 @@
+{
+	"id": "arendeth_golem_clay_frame",
+	"name": "Clay Golem Frame",
+	"requirements": {
+		"milestones": [],
+		"skill": 10
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_golem_Clay_Head"
+		},
+		{
+			"recipe": "arendeth_golem_Clay_Torso"
+		},
+		{
+			"recipe": "arendeth_golem_Clay_Legs"
+		},
+		{
+			"recipe": "arendeth_golem_Clay_Fist"
+		},
+		{
+			"recipe": "arendeth_golem_Clay_Guard"
+		},
+		{
+			"recipe": "arendeth_golem_Repair_Putty"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

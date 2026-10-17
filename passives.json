@@ -1,0 +1,98 @@
+[
+	{
+		"effects": [
+			{
+				"effect": "disable_consumer"
+			},
+			{
+				"effect": "immunity",
+				"value": "poison_effect"
+			},
+			{
+				"effect": "health_bonus_percent",
+				"value": 0.15
+			}
+		],
+		"id": "arendeth_golem_unliving_body",
+		"image": 0,
+		"name": "Unliving Body"
+	},
+	{
+		"effects": [
+			{
+				"effect": "move_speed",
+				"value": 0.1
+			},
+			{
+				"effect": "carry_capacity",
+				"value": 40
+			},
+			{
+				"effect": "statistic_percent",
+				"secondary_value": 0.15,
+				"value": "strength"
+			},
+			{
+				"effect": "statistic_percent",
+				"secondary_value": 0.15,
+				"value": "endurance"
+			},
+			{
+				"effect": "damage_type_reduction",
+				"secondary_value": -0.25,
+				"value": "acid"
+			}
+		],
+		"id": "arendeth_golem_dense_frame",
+		"image": 1,
+		"name": "Dense Frame"
+	},
+	{
+		"effects": [
+			{
+				"effect": "regeneration",
+				"value": 0.5
+			}
+		],
+		"id": "arendeth_golem_self_repair_matrix",
+		"image": 2,
+		"name": "Self-Repair Matrix"
+	},
+	{
+		"effects": [
+			{
+				"effect": "health_bonus_percent",
+				"value": 0.1
+			},
+			{
+				"effect": "damage_type_reduction",
+				"secondary_value": 0.25,
+				"value": "death"
+			}
+		],
+		"id": "arendeth_golem_hardened_core",
+		"image": 3,
+		"name": "Hardened Core",
+		"restrict_tags": [
+			"arendeth_golem_tag"
+		]
+	},
+	{
+		"effects": [
+			{
+				"effect": "regeneration",
+				"value": 0.5
+			},
+			{
+				"effect": "health_tick",
+				"value": 0.33
+			}
+		],
+		"id": "arendeth_golem_rapid_repair",
+		"image": 4,
+		"name": "Rapid Repair",
+		"restrict_tags": [
+			"arendeth_golem_tag"
+		]
+	}
+]

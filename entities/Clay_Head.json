@@ -1,0 +1,90 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 1,
+		"frost": 0,
+		"holy": 0,
+		"parry": 0,
+		"physical": 1,
+		"poison": 0,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 2,
+				"id": "2004"
+			}
+		],
+		"time": 30,
+		"tools": []
+	},
+	"description": "A golem's head, shaped by hand from wet clay.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 0
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Clay_Head",
+	"item": {
+		"image": 0,
+		"type": 26
+	},
+	"minimap_pixel": [
+		184,
+		112,
+		74
+	],
+	"name": "Clay Head",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			0,
+			0
+		],
+		"intelligence": [
+			0,
+			0
+		],
+		"strength": [
+			0,
+			0
+		],
+		"willpower": [
+			1,
+			1
+		]
+	},
+	"value": 800,
+	"weight": 2.0
+}

@@ -1,0 +1,148 @@
+{
+	"artificial_intelligence": {
+		"allies": [
+			"arendeth_golem_tag"
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"equipment",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2747",
+	"description": "A person of clay, stone and metal, assembled rather than born. Their parts can be swapped out.",
+	"equipment": {
+		"custom_slots": [
+			"core_2_golem_hand",
+			"core_2_golem_head",
+			"core_2_golem_legs",
+			"core_2_golem_torso",
+			"arendeth_golem_offhand"
+		],
+		"disabled_slots": [
+			1,
+			2,
+			4,
+			6,
+			7,
+			8,
+			9,
+			10,
+			14,
+			15,
+			16,
+			17,
+			18
+		]
+	},
+	"fighter": {
+		"attackNames": [
+			"Punch",
+			"Slam"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 23
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 600,
+	"humanoid": {
+		"race": "arendeth_golem_Golem"
+	},
+	"id": "arendeth_golem_Golem_Leader",
+	"minimap_pixel": [
+		149,
+		165,
+		101
+	],
+	"moveable": {
+		"speed": 0.9
+	},
+	"name": "Golem Foreman",
+	"persona": {
+		"occupation": "Leader"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": false,
+		"range": 10,
+		"threesixty": false
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			24,
+			28
+		],
+		"endurance": [
+			55,
+			59
+		],
+		"intelligence": [
+			15,
+			19
+		],
+		"strength": [
+			58,
+			63
+		],
+		"willpower": [
+			41,
+			45
+		]
+	},
+	"tags": [
+		"9",
+		"3",
+		"32",
+		"arendeth_golem_tag"
+	],
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 22,
+				"dmg_min": 12,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 6
+	}
+}

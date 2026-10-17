@@ -1,0 +1,96 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 1,
+		"frost": 0,
+		"holy": 0,
+		"parry": 3,
+		"physical": 4,
+		"poison": 0,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"usable",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 1,
+				"id": 2
+			}
+		],
+		"resources": [
+			{
+				"amount": 3,
+				"id": "2114"
+			}
+		],
+		"time": 80,
+		"tools": [
+			1
+		]
+	},
+	"description": "A golem's hand shaped into a guard, cast and riveted from bronze. A round plate that slams foes away.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 18
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Bronze_Bulwark",
+	"item": {
+		"image": 18,
+		"type": 29
+	},
+	"minimap_pixel": [
+		186,
+		130,
+		56
+	],
+	"name": "Bronze Bulwark",
+	"usable": {
+		"ability": "36",
+		"recipe": ""
+	},
+	"value": 7150,
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 3,
+				"dmg_min": 0,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 8
+	},
+	"weight": 4.0
+}

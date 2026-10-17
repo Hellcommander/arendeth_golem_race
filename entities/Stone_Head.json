@@ -1,0 +1,92 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 0,
+		"frost": 2,
+		"holy": 0,
+		"parry": 0,
+		"physical": 3,
+		"poison": 2,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 3,
+				"id": 6
+			}
+		],
+		"resources": [],
+		"time": 60,
+		"tools": [
+			6
+		]
+	},
+	"description": "A golem's head, hewn from quarried stone.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 1
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Stone_Head",
+	"item": {
+		"image": 1,
+		"type": 26
+	},
+	"minimap_pixel": [
+		132,
+		134,
+		142
+	],
+	"name": "Stone Head",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			0,
+			0
+		],
+		"intelligence": [
+			0,
+			0
+		],
+		"strength": [
+			0,
+			0
+		],
+		"willpower": [
+			2,
+			2
+		]
+	},
+	"value": 2400,
+	"weight": 3.0
+}

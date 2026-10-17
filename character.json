@@ -1,0 +1,85 @@
+{
+	"custom_eq_slots": [
+		{
+			"icon": 23,
+			"id": "arendeth_golem_offhand",
+			"item_types": [
+				29
+			],
+			"name": "Golem Off-Hand",
+			"replace": "left_hand"
+		}
+	],
+	"production_actions": [
+		{
+			"animation": "core_2_Become_Vampire",
+			"askey": -1,
+			"description": "Become a Golem: leave your flesh behind and be assembled anew. You gain golem part slots (head, torso, legs, both hands), never hunger or tire, and keep your skills. This cannot be undone.\n\nLearned at Construction level 10. It may only be used at an Assembly Cradle.",
+			"force_single_item": true,
+			"id": "arendeth_golem_become_golem",
+			"image": 92,
+			"key": "",
+			"name": "Golem Assembly",
+			"replace_entity": "arendeth_golem_Golem_Player",
+			"require_unlock": true,
+			"required_tool": -1,
+			"restrict_default": true,
+			"sound": "data/mods/core_2/assets/sfx/inventory/drop_other_1.ogg",
+			"time_statistic_multiplier": 0.1,
+			"time_statistic_scale": 4,
+			"time_weight_scale": 0
+		}
+	],
+	"races": [
+		{
+			"ages": {
+				"adult": 25,
+				"child": 0,
+				"elder": 500
+			},
+			"base_entities": {
+				"adult": "arendeth_golem_Golem_Adult",
+				"adventurer": "arendeth_golem_Golem_Adventurer",
+				"child": "arendeth_golem_Golem_Adult",
+				"leader": "arendeth_golem_Golem_Leader",
+				"rebel": "arendeth_golem_Golem_Rebel",
+				"recruit": "arendeth_golem_Golem_Recruit"
+			},
+			"description": "Golems are made, not born: people of clay, stone and metal, woken by a heart and a name. They never hunger, thirst or tire, shrug off poison and wear no clothes. Their head, torso, legs and both hands are swappable golem parts.",
+			"id": "arendeth_golem_Golem",
+			"image": 46,
+			"items": [],
+			"name": "Golem",
+			"names": {
+				"female": "npc/names/golem_female.txt",
+				"male": "npc/names/golem_male.txt"
+			},
+			"orphan_surname": "of the Foundry",
+			"passives": [
+				"arendeth_golem_unliving_body",
+				"arendeth_golem_dense_frame",
+				"arendeth_golem_self_repair_matrix"
+			],
+			"playable": false,
+			"recipes": [],
+			"statistics": {
+				"endurance": 3,
+				"strength": 2,
+				"willpower": 1
+			},
+			"tags": [
+				"9",
+				"3",
+				"32",
+				"arendeth_golem_tag"
+			]
+		}
+	],
+	"tags": [
+		{
+			"id": "arendeth_golem_tag",
+			"name": "golem",
+			"options": []
+		}
+	]
+}
