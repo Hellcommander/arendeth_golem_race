@@ -1,0 +1,42 @@
+[
+	{
+		"chance": 0.1,
+		"id": "arendeth_golem_aware",
+		"monologue": [
+			[
+				"*grinds a joint*"
+			],
+			[
+				"*settles with a low grumble*"
+			],
+			[
+				"Parts hold."
+			],
+			[
+				"Awaiting orders."
+			]
+		],
+		"name": "Golem aware",
+		"trigger": 1
+	},
+	{
+		"chance": 0.1,
+		"id": "arendeth_golem_fight",
+		"monologue": [
+			[
+				"*stone grinds on stone*"
+			],
+			[
+				"Hold the line!"
+			],
+			[
+				"Break them!"
+			],
+			[
+				"*the core flares*"
+			]
+		],
+		"name": "Golem fight",
+		"trigger": 3
+	}
+]

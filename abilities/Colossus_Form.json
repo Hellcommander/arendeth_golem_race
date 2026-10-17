@@ -1,0 +1,21 @@
+{
+	"animation": "34",
+	"cast_time": 1.0,
+	"cooldown": 120.0,
+	"cost": {
+		"health": 0,
+		"stamina": 25
+	},
+	"description": "Wake the core. You become a stone colossus for ::duration turns: huge, nearly unstoppable and able to stomp the ground.",
+	"duration": 30.0,
+	"effects": {},
+	"effects_keys": {
+		"transform": "arendeth_golem_Colossus_Form"
+	},
+	"id": "arendeth_golem_Colossus_Form",
+	"image": 6,
+	"name": "Colossus Form",
+	"range": 0,
+	"skill": "",
+	"target": "actor"
+}

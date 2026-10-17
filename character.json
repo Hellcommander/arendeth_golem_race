@@ -52,7 +52,10 @@
 			"name": "Golem",
 			"names": {
 				"female": "npc/names/golem_female.txt",
-				"male": "npc/names/golem_male.txt"
+				"male": "npc/names/golem_male.txt",
+				"settlements": "npc/settlements/golem_settlements.json",
+				"states": "npc/states/golem.json",
+				"surnames": "npc/surnames/golem.json"
 			},
 			"orphan_surname": "of the Foundry",
 			"passives": [
@@ -62,6 +65,49 @@
 			],
 			"playable": false,
 			"recipes": [],
+			"settlement": {
+				"aggression_default": false,
+				"aggression_per_race": {
+					"arendeth_golem_Golem": false
+				},
+				"birth_cost": {
+					"amount": 40,
+					"max_population": 100,
+					"resource_type": 6
+				},
+				"buyout": false,
+				"caravan_image": 134,
+				"center_id": "204",
+				"collapse_on_leader_death": false,
+				"disabled_trading": false,
+				"max": 1,
+				"migration": false,
+				"single_family": true,
+				"start_spawn_rate": 0.0,
+				"war_causes": []
+			},
+			"state_crests": [
+				{
+					"id": "arendeth_golem_crest_0",
+					"image": 130
+				},
+				{
+					"id": "arendeth_golem_crest_1",
+					"image": 131
+				},
+				{
+					"id": "arendeth_golem_crest_2",
+					"image": 132
+				},
+				{
+					"id": "arendeth_golem_crest_3",
+					"image": 133
+				},
+				{
+					"id": "arendeth_golem_crest_4",
+					"image": 134
+				}
+			],
 			"statistics": {
 				"endurance": 3,
 				"strength": 2,
@@ -79,7 +125,9 @@
 		{
 			"id": "arendeth_golem_tag",
 			"name": "golem",
-			"options": []
+			"options": [
+				"ritual_birth"
+			]
 		}
 	]
 }

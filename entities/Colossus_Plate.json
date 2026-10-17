@@ -1,0 +1,106 @@
+{
+	"armor": {
+		"acid": 4,
+		"death": 3,
+		"electricity": 4,
+		"fire": 5,
+		"frost": 5,
+		"holy": 3,
+		"parry": 0,
+		"physical": 9,
+		"poison": 4,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"usable",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 1,
+				"id": 8
+			}
+		],
+		"resources": [
+			{
+				"amount": 3,
+				"id": "2116"
+			},
+			{
+				"amount": 2,
+				"id": "2540"
+			}
+		],
+		"time": 360,
+		"tools": [
+			1
+		]
+	},
+	"description": "A breastplate cast around a core that never stopped glowing. Wake the core and the armor keeps growing until you are the building.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 29
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Colossus_Plate",
+	"item": {
+		"image": 24,
+		"type": 4
+	},
+	"minimap_pixel": [
+		120,
+		130,
+		160
+	],
+	"name": "Colossus Plate",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			8,
+			8
+		],
+		"intelligence": [
+			0,
+			0
+		],
+		"strength": [
+			4,
+			4
+		],
+		"willpower": [
+			0,
+			0
+		]
+	},
+	"usable": {
+		"ability": "arendeth_golem_Colossus_Form",
+		"recipe": ""
+	},
+	"value": 28000,
+	"weight": 18.0
+}

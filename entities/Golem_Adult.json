@@ -11,6 +11,7 @@
 		"actor",
 		"artificial_intelligence",
 		"collidable",
+		"dialogues",
 		"equipment",
 		"experience_gainer",
 		"fighter",
@@ -30,6 +31,9 @@
 	],
 	"corpse": "2747",
 	"description": "A person of clay, stone and metal, assembled rather than born. Their parts can be swapped out.",
+	"dialogues": [
+		"arendeth_golem_aware"
+	],
 	"equipment": {
 		"custom_slots": [
 			"core_2_golem_hand",
@@ -41,7 +45,6 @@
 		"disabled_slots": [
 			1,
 			2,
-			4,
 			6,
 			7,
 			8,

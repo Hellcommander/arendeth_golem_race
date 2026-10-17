@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_golem_guard_crafting",
+	"name": "Golem Guard Crafting",
+	"requirements": {
+		"milestones": [],
+		"skill": 25
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_golem_guard_crafting"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

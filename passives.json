@@ -94,5 +94,70 @@
 		"restrict_tags": [
 			"arendeth_golem_tag"
 		]
+	},
+	{
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"secondary_value": "2004",
+				"third_value": 20,
+				"value": "arendeth_golem_Golem_Stonemason"
+			}
+		],
+		"id": "arendeth_golem_stonemason_crafting",
+		"image": 4,
+		"name": "Golem Stonemason Crafting"
+	},
+	{
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"secondary_value": "35",
+				"third_value": 25,
+				"value": "arendeth_golem_Golem_Miner"
+			}
+		],
+		"id": "arendeth_golem_miner_crafting",
+		"image": 4,
+		"name": "Golem Miner Crafting"
+	},
+	{
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"secondary_value": "2114",
+				"third_value": 8,
+				"value": "arendeth_golem_Golem_Guard"
+			}
+		],
+		"id": "arendeth_golem_guard_crafting",
+		"image": 4,
+		"name": "Golem Guard Crafting"
+	},
+	{
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"secondary_value": "147",
+				"third_value": 10,
+				"value": "arendeth_golem_Golem_Smelter"
+			}
+		],
+		"id": "arendeth_golem_smelter_crafting",
+		"image": 4,
+		"name": "Golem Smelter Crafting"
+	},
+	{
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"secondary_value": "149",
+				"third_value": 12,
+				"value": "arendeth_golem_Golem_Engineer"
+			}
+		],
+		"id": "arendeth_golem_engineer_crafting",
+		"image": 4,
+		"name": "Golem Engineer Crafting"
 	}
 ]

@@ -1,0 +1,19 @@
+{
+	"id": "arendeth_golem_colossus_plate",
+	"name": "Colossus Plate",
+	"requirements": {
+		"milestones": [],
+		"skill": 50
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_golem_Colossus_Plate"
+		},
+		{
+			"recipe": "arendeth_golem_Colossus_Heart_Plate"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

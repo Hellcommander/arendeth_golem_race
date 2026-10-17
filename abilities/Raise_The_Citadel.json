@@ -1,0 +1,23 @@
+{
+	"animation": "core_2_Box_Throw",
+	"cast_time": 1.5,
+	"cooldown": 90.0,
+	"cost": {
+		"health": 0,
+		"stamina": 30
+	},
+	"description": "Point at the ground and three stone sentinels rise to fight for you for ::duration turns.",
+	"duration": 40.0,
+	"effects": {
+		"summon_count": 3
+	},
+	"effects_keys": {
+		"summon": "arendeth_golem_Stone_Sentinel"
+	},
+	"id": "arendeth_golem_Raise_The_Citadel",
+	"image": 5,
+	"name": "Raise the Citadel",
+	"range": 4,
+	"skill": "",
+	"target": "tile"
+}

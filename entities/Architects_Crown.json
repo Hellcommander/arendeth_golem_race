@@ -1,0 +1,102 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 4,
+		"electricity": 3,
+		"fire": 3,
+		"frost": 3,
+		"holy": 4,
+		"parry": 0,
+		"physical": 5,
+		"poison": 0,
+		"thorns": 0
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"statistics",
+		"usable",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 2,
+				"id": 8
+			}
+		],
+		"resources": [
+			{
+				"amount": 2,
+				"id": "2115"
+			}
+		],
+		"time": 360,
+		"tools": [
+			1
+		]
+	},
+	"description": "A crown of mithril set with three stones. Whoever wears it only has to point, and the stone itself comes to stand guard.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 27
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Architects_Crown",
+	"item": {
+		"image": 22,
+		"type": 1
+	},
+	"minimap_pixel": [
+		120,
+		130,
+		160
+	],
+	"name": "Architect's Crown",
+	"statistics": {
+		"dexterity": [
+			0,
+			0
+		],
+		"endurance": [
+			0,
+			0
+		],
+		"intelligence": [
+			0,
+			0
+		],
+		"strength": [
+			0,
+			0
+		],
+		"willpower": [
+			6,
+			6
+		]
+	},
+	"usable": {
+		"ability": "arendeth_golem_Raise_The_Citadel",
+		"recipe": ""
+	},
+	"value": 26000,
+	"weight": 2.5
+}

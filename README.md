@@ -16,7 +16,7 @@ Requires `core_2`. Enable the mod before starting a world.
 |---|---|
 | Race passives | **Unliving Body** (no hunger/thirst, poison immune, +15% health), **Dense Frame** (10% slower, +40 carry, +15% strength/endurance, 25% weaker to acid), **Self-Repair Matrix** (slow regeneration) |
 | Tags | alive, magic, mechanical (no fatigue, cannot be transformed), golem |
-| Equipment | core's golem slots (head, torso, legs, hand = item types 26-29) plus **Golem Off-Hand** (type 29, replaces Left Hand). Kept: backpack, bag, belt, amulet, 2 rings, ammo. Every core golem part (Axe Hand, Armored Torso...) works too. |
+| Equipment | core's golem slots (head, torso, legs, hand = item types 26-29) plus **Golem Off-Hand** (type 29, replaces Left Hand). Kept: backpack, bag, belt, amulet, 2 rings, ammo, cape. Every core golem part (Axe Hand, Armored Torso...) works too. |
 
 ## Construction milestones added
 
@@ -35,6 +35,35 @@ No stat bonuses are granted (Construction gains none on the milestone sheet). Ev
 
 Golem NPCs exist as the race's `base_entities` (adult, recruit, rebel, adventurer, foreman). The race has no settlement.
 
+## Golem townies (population), unlocked by Construction milestones
+
+Core already lets you craft golem companions (Construction 40), but they are not population. These are golem **townies**: persona entities like Astral Magic's `Civilized_*` ones, added to your settlement's population. Each Construction milestone grants a `craft_persona` passive (the same milestone -> passive -> craft_persona chain as Astral's Wisp/Elemental crafting); crafting the persona consumes the listed resource and adds the golem to your town. They work their trade, eat nothing (`core_2_disable_consumption`), keep normal hands for their tool and wear golem parts on head, torso and legs.
+
+| Construction | Townie (occupation) | Consumes |
+|---|---|---|
+| 15 | **Golem Stonemason** | 20 clay |
+| 20 | **Golem Miner** | 25 stone |
+| 25 | **Golem Guard** | 8 bronze ingots |
+| 30 | **Golem Smelter** | 10 iron ingots |
+| 36 | **Golem Engineer** (construction + trap recipes) | 12 steel ingots |
+
+## Construction capstones (unlockable recipes, levels 48-50)
+
+Other crafting trees end on a unique item with a big active ability; Construction ended on slightly better golem parts. These are crafted at an anvil (5 magic slots) and unlocked as recipes by Construction milestones, the way Astral Magic unlocks its crafted items:
+
+| Level | Item(s) | Active ability |
+|---|---|---|
+| 48 | **Mason's Mantle** (cape; adamantine + ancient cloth + leather) | **Collapse the Hall**: 3-tile ceiling collapse, 25-45 physical, stun and knockback, 25 turn cooldown |
+| 49 | **Architect's Crown** (head; mithril + gems) / **Architect's Visage** (golem head; mithril + Golem's Heart) | **Raise the Citadel**: summon 3 Stone Sentinels (350 HP) for 40 turns, 90 turn cooldown |
+| 50 | **Colossus Plate** (torso; adamantine + obsidian + gem) / **Colossus Heart-Plate** (golem torso; adamantine + 2 Golem's Hearts) | **Colossus Form**: become a 1400 HP stone titan (armor 10, ~64 strength, own Colossus Stomp) for 30 turns, 120 turn cooldown |
+
+The head and torso come in a golem-slot variant (normal armor slots are disabled for golems); the cape works for everyone (golems keep the cape slot).
+
+## Golem villagers (like necromancy's undead)
+
+The golem race has a `settlement` block modelled on the skeleton/vampire/bone wraith races: `single_family`, `birth_cost` (40 stone-type resources per golem, e.g. clay or blocks, up to 100 population) and the tag option `ritual_birth`. Once you are a golem and control a settlement, golems can be created as villagers from the Settlement screen's "create beings" action, join your family, eat no settlement food (Unliving Body) and can serve as recruits. Golem Recruit, Rebel and Adventurer entities, name pools (settlements, states, surnames) and idle/fight barks (`dialogues.json`) exist for them. `start_spawn_rate` is 0 so worldgen never founds golem towns.
+
+Limit: like skeletons, golem villagers are not mapped into the workplace occupations of core's buildings (`occupation_per_race` is per building, ~90 buildings), so they fill the population and military rather than jobs.
 ## Rebuilding
 
 `python tools/build_golem.py` regenerates everything (entities, pixel-art sheets, json) from the registry at the top. Needs Pillow and numpy. Art is drawn procedurally at 256px, area-downsampled to 32px, snapped to a small palette and outlined (the game's item style).
@@ -45,7 +74,10 @@ Golem NPCs exist as the race's `base_entities` (adult, recruit, rebel, adventure
 2. A milestone granting a production action (`production_action` reward, `require_unlock: true`, same as Become Vampire) from a mod.
 3. Race passives apply to the replaced body (vampires work this way); `restrict_tags` with the custom tag; negative `damage_type_reduction`; `regeneration` scale.
 4. The Golem Off-Hand custom slot and `usable.ability` hands in the off-hand.
-5. Ritual `animation`/`image` reuse the vampire ritual's.
+5. Capstones: `transform` into `Colossus_Form` (same mechanism as Arborborn forms), `summon_count` 3 sentinels, armor items with `usable.ability` (core's Phasewalker pattern) and the balance of the numbers.
+6. Golem townies: `craft_persona` with `third_value` (resource count) as in core's Skeleton/Bone Wraith crafting; workers using their tool from the right-hand slot.
+7. Ritual `animation`/`image` reuse the vampire ritual's.
+6. The settlement block (`center_id` 204 Golem's Tower, birth cost, `ritual_birth`): whether the Settlement screen offers creating golems and how many it creates.
 
 ## Credits
 

@@ -1,0 +1,19 @@
+{
+	"id": "arendeth_golem_architects_crown",
+	"name": "Architect's Crown",
+	"requirements": {
+		"milestones": [],
+		"skill": 49
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_golem_Architects_Crown"
+		},
+		{
+			"recipe": "arendeth_golem_Architects_Visage"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

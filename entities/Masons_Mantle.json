@@ -1,0 +1,83 @@
+{
+	"armor": {
+		"acid": 3,
+		"death": 3,
+		"electricity": 3,
+		"fire": 3,
+		"frost": 3,
+		"holy": 3,
+		"parry": 0,
+		"physical": 2,
+		"poison": 3,
+		"thorns": 4
+	},
+	"components": [
+		"armor",
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"usable",
+		"value",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 2,
+				"id": 2
+			}
+		],
+		"resources": [
+			{
+				"amount": 1,
+				"id": "2116"
+			},
+			{
+				"amount": 2,
+				"id": "2160"
+			}
+		],
+		"time": 360,
+		"tools": [
+			1
+		]
+	},
+	"description": "A heavy cloak stitched from ancient cloth and a thread of adamantine, worn by those who have built halls that outlived their builders. Rip it open and the ceiling remembers it was held up.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 26
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_golem_Masons_Mantle",
+	"item": {
+		"image": 21,
+		"type": 10
+	},
+	"minimap_pixel": [
+		120,
+		130,
+		160
+	],
+	"name": "Mason's Mantle",
+	"usable": {
+		"ability": "arendeth_golem_Collapse_The_Hall",
+		"recipe": ""
+	},
+	"value": 24000,
+	"weight": 3.0
+}

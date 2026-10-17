@@ -1,0 +1,28 @@
+{
+	"animation": "57",
+	"cast_time": 0.8,
+	"cooldown": 25.0,
+	"cost": {
+		"health": 0,
+		"stamina": 25
+	},
+	"description": "Bring the ceiling down on everything within ::aoe_range tiles for ::damage ::damage_type damage, stunning and shoving them back.",
+	"duration": 0.0,
+	"effects": {
+		"aoe_range": 3,
+		"aoe_shape": 4,
+		"damage": [
+			25,
+			45
+		],
+		"damage_type": "physical",
+		"knockback": 3,
+		"stun": 0.5
+	},
+	"id": "arendeth_golem_Collapse_The_Hall",
+	"image": 4,
+	"name": "Collapse the Hall",
+	"range": 0,
+	"skill": "",
+	"target": "aoe_self"
+}

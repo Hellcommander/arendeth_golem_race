@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_golem_engineer_crafting",
+	"name": "Golem Engineer Crafting",
+	"requirements": {
+		"milestones": [],
+		"skill": 36
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_golem_engineer_crafting"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

@@ -21,6 +21,9 @@ PAL = {
     "Stone": dict(base=(132, 134, 142), hi=(184, 186, 194), lo=(86, 88, 98), dk=(40, 42, 52), glow=(120, 226, 255)),
     "Bronze": dict(base=(186, 130, 56), hi=(240, 196, 100), lo=(120, 76, 30), dk=(56, 34, 16), glow=(255, 232, 120)),
     "Steel": dict(base=(124, 140, 166), hi=(206, 222, 244), lo=(74, 88, 112), dk=(30, 36, 50), glow=(150, 255, 204)),
+    "Colossus": dict(base=(78, 86, 106), hi=(170, 182, 210), lo=(44, 48, 64), dk=(18, 20, 30), glow=(255, 160, 54)),
+    "Gold": dict(base=(214, 170, 64), hi=(255, 232, 140), lo=(138, 100, 34), dk=(60, 40, 14), glow=(255, 240, 180)),
+    "Cloak": dict(base=(70, 92, 108), hi=(130, 160, 178), lo=(38, 52, 66), dk=(16, 24, 32), glow=(255, 200, 90)),
 }
 GREY = dict(base=(206, 206, 206), hi=(244, 244, 244), lo=(150, 150, 150), dk=(64, 64, 64), glow=(255, 255, 255))
 
@@ -382,6 +385,58 @@ def book():
     return img
 
 
+
+# ---------------------------------------------------------------- capstone items
+def cape():
+    p, g = PAL["Cloak"], PAL["Gold"]
+    img = _blank()
+    poly(img, [(70, 30), (186, 30), (230, 232), (26, 232)], p, ow=8)
+    poly(img, [(70, 30), (128, 44), (186, 30), (160, 70), (96, 70)], dict(base=p["lo"], hi=p["base"], lo=p["dk"], dk=p["dk"], glow=p["glow"]), ow=6)
+    d = ImageDraw.Draw(img)
+    for x0, x1 in ((96, 70), (128, 128), (160, 186)):
+        d.line((x0, 80, x1 + (x0 - 128) * 0.9, 226), fill=p["dk"] + (255,), width=5)
+    for x in (60, 100, 140, 180):
+        d.polygon([(x, 232), (x + 34, 232), (x + 17, 246)], fill=p["dk"] + (255,))
+    ellipse(img, (104, 40, 152, 88), g, ow=6)
+    glow(img, (118, 54, 138, 74), PAL["Colossus"], 10, 6)
+    return img
+
+
+def crown():
+    g = PAL["Gold"]
+    img = _blank()
+    poly(img, [(36, 200), (36, 80), (84, 130), (128, 50), (172, 130), (220, 80), (220, 200)], g, ow=8)
+    box(img, (30, 190, 226, 232), g, r=10)
+    d = ImageDraw.Draw(img)
+    for x, y, c in ((128, 70, (255, 80, 70)), (60, 118, (90, 190, 255)), (196, 118, (110, 240, 150))):
+        d.ellipse((x - 14, y - 14, x + 14, y + 14), fill=g["dk"] + (255,))
+        d.ellipse((x - 9, y - 9, x + 9, y + 9), fill=c + (255,))
+    for x in (66, 106, 150, 190):
+        rivet(d, x, 212, g)
+    return img
+
+
+def visage():
+    """Golem-head version of the crown: a steel visage with a golden crown set into the brow."""
+    img = head(PAL["Colossus"], "Steel")
+    d = ImageDraw.Draw(img)
+    g = PAL["Gold"]
+    d.polygon([(64, 70), (64, 24), (92, 48), (128, 8), (164, 48), (192, 24), (192, 70)], fill=g["base"] + (255,), outline=g["dk"] + (255,), width=6)
+    d.ellipse((116, 22, 140, 46), fill=(255, 90, 70, 255), outline=g["dk"] + (255,), width=4)
+    return img
+
+
+def colossus_plate():
+    img = torso(PAL["Colossus"], "Steel")
+    d = ImageDraw.Draw(img)
+    g = PAL["Gold"]
+    for x0, x1 in ((14, 82), (174, 242)):
+        d.rectangle((x0, 52, x1, 66), fill=g["base"] + (255,))
+    d.rectangle((50, 206, 206, 222), fill=g["base"] + (255,))
+    return img
+
+
+CAPSTONE_DRAW = {"cape": cape, "crown": crown, "visage": visage, "plate": colossus_plate}
 PART_DRAW = {"head": head, "torso": torso, "legs": legs, "hand": hand_weapon, "guard": hand_guard}
 
 
@@ -392,7 +447,7 @@ def part_icon(slot, tier):
 # ---------------------------------------------------------------- full figures (NPC glyphs)
 def figure(role):
     """Whole golem, front view, for NPC / player glyphs."""
-    tier = {"adult": "Clay", "recruit": "Stone", "leader": "Steel", "adventurer": "Bronze", "rebel": "Stone"}[role]
+    tier = {"adult": "Clay", "recruit": "Stone", "leader": "Steel", "adventurer": "Bronze", "rebel": "Stone", "colossus": "Colossus", "sentinel": "Stone", "gclay": "Clay", "gstone": "Stone", "gbronze": "Bronze", "gsteel": "Steel"}[role]
     p = PAL[tier]
     img = _blank()
     # legs
@@ -540,6 +595,20 @@ def subject(kind):
         d = ImageDraw.Draw(img)
         for (x, y) in ((70, 60), (186, 60), (70, 196), (186, 196)):
             rivet(d, x, y, S)
+    elif kind == "quake":
+        poly(img, [(40, 230), (70, 120), (110, 176), (128, 40), (150, 170), (190, 100), (220, 230)], S, ow=8)
+        d = ImageDraw.Draw(img)
+        d.line((128, 80, 116, 130, 134, 170, 120, 220), fill=S["dk"] + (255,), width=8)
+        d.line((128, 80, 116, 130, 134, 170, 120, 220), fill=K["glow"] + (255,), width=3)
+    elif kind == "tower":
+        box(img, (74, 60, 182, 230), S, r=6)
+        for x in (74, 110, 146):
+            box(img, (x, 28, x + 36, 72), S, r=4)
+        d = ImageDraw.Draw(img)
+        d.rectangle((116, 110, 140, 150), fill=S["dk"] + (255,))
+        glow(img, (118, 112, 138, 148), K, 8, 6)
+    elif kind == "colossus":
+        img.alpha_composite(head(PAL["Colossus"], "Steel"))
     elif kind == "star":
         pts = []
         for i in range(10):
@@ -551,7 +620,7 @@ def subject(kind):
     return img
 
 
-BG_TINT = {"core": (70, 38, 22), "block": (36, 40, 52), "gear": (30, 40, 56), "gearplus": (60, 44, 22), "shield": (30, 44, 64),
+BG_TINT = {"quake": (56, 40, 30), "tower": (40, 46, 62), "colossus": (60, 36, 20), "core": (70, 38, 22), "block": (36, 40, 52), "gear": (30, 40, 56), "gearplus": (60, 44, 22), "shield": (30, 44, 64),
            "bolt": (60, 46, 20), "wrench": (30, 46, 50), "heartcore": (66, 34, 22), "star": (58, 46, 20), "putty": (40, 56, 40)}
 
 

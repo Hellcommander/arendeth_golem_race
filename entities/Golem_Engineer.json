@@ -1,0 +1,171 @@
+{
+	"artificial_intelligence": {
+		"allies": [
+			"arendeth_golem_tag"
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2747",
+	"description": "A golem engineer: clay, stone and metal at work in your town. No food, no sleep, no clothes, and its head, torso and legs are swappable golem parts.",
+	"dialogues": [
+		"402",
+		"403",
+		"arendeth_golem_aware"
+	],
+	"equipment": {
+		"custom_slots": [
+			"core_2_golem_head",
+			"core_2_golem_legs",
+			"core_2_golem_torso"
+		],
+		"disabled_slots": [
+			1,
+			2,
+			6,
+			7,
+			14,
+			15
+		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": "151",
+				"name": "Hammer",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 5,
+		"level": 1
+	},
+	"fighter": {
+		"attackNames": [
+			"Punch",
+			"Slam"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 35
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 240,
+	"humanoid": {
+		"race": "arendeth_golem_Golem"
+	},
+	"id": "arendeth_golem_Golem_Engineer",
+	"minimap_pixel": [
+		149,
+		165,
+		101
+	],
+	"moveable": {
+		"speed": 1.2
+	},
+	"name": "Golem Engineer",
+	"persona": {
+		"occupation": "Engineer"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": false,
+		"range": 10,
+		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_disable_consumption",
+			"core_2_head_candle",
+			"core_2_bear_trap",
+			"core_2_fireball_trap",
+			"core_2_gas_trap"
+		],
+		"skills": [
+			"core_2_construction"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			16,
+			20
+		],
+		"endurance": [
+			28,
+			32
+		],
+		"intelligence": [
+			20,
+			24
+		],
+		"strength": [
+			28,
+			32
+		],
+		"willpower": [
+			20,
+			26
+		]
+	},
+	"tags": [
+		"9",
+		"3",
+		"32",
+		"arendeth_golem_tag"
+	],
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 9,
+				"dmg_min": 4,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 6
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_golem_smelter_crafting",
+	"name": "Golem Smelter Crafting",
+	"requirements": {
+		"milestones": [],
+		"skill": 30
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_golem_smelter_crafting"
+		}
+	],
+	"skill_id": "core_2_construction",
+	"steps": [],
+	"steps_type": 0
+}

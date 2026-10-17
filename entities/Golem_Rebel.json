@@ -32,7 +32,8 @@
 	"corpse": "2747",
 	"description": "A person of clay, stone and metal, assembled rather than born. Their parts can be swapped out.",
 	"dialogues": [
-		"987"
+		"987",
+		"arendeth_golem_fight"
 	],
 	"equipment": {
 		"custom_slots": [
@@ -45,7 +46,6 @@
 		"disabled_slots": [
 			1,
 			2,
-			4,
 			6,
 			7,
 			8,
