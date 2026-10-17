@@ -46,3 +46,11 @@ Golem NPCs exist as the race's `base_entities` (adult, recruit, rebel, adventure
 3. Race passives apply to the replaced body (vampires work this way); `restrict_tags` with the custom tag; negative `damage_type_reduction`; `regeneration` scale.
 4. The Golem Off-Hand custom slot and `usable.ability` hands in the off-hand.
 5. Ritual `animation`/`image` reuse the vampire ritual's.
+
+## Credits
+
+- **Design and direction:** Arendeth.
+- **Implementation:** built with Claude (Anthropic) using the generator in `tools/`.
+- **Art:** all sprites, icons and the thumbnail are original, drawn procedurally by `tools/golem_art.py`; no core_2 art is copied into this mod.
+- **Soulash 2 and core_2:** Wizards of the Code. This mod reuses core_2's golem equipment slots (`core_2_golem_*`), the Construction skill, existing abilities (Bash, Whirlwind, Break, Shield Slam), the Golem Corpse, and the vampire ritual's animation, all by reference only.
+- **Pattern reference:** the ritual (`replace_entity` at an altar) follows the Arborborn mod's Heartwood Altar and core's Become Vampire.

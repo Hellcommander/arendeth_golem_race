@@ -452,7 +452,7 @@ def main():
         "author": "Arendeth",
         "description": ("Golem Race: at Construction level 10 learn Golem Assembly, build an Assembly Cradle and perform it to become a golem. Golems never hunger, "
                         "thirst or tire, wear no clothes, and use swappable golem parts (clay, stone, bronze, steel) in the head, torso, legs "
-                        "and both hand slots."),
+                        "and both hand slots. Credits: Arendeth (design); built with Claude (Anthropic); Soulash 2 and core_2 by Wizards of the Code."),
         "game_required": "0.10.0", "icon": "icon.png", "mods_required": ["core_2"], "name": "Golem Race",
         "thumbnail": "thumbnail.png", "version": "0.3.0",
     })
