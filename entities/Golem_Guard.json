@@ -4,7 +4,10 @@
 			"arendeth_golem_tag"
 		],
 		"allow_production": [],
-		"behaviors": [],
+		"behaviors": [
+			3,
+			2
+		],
 		"enemies": []
 	},
 	"components": [
@@ -39,17 +42,17 @@
 	],
 	"equipment": {
 		"custom_slots": [
+			"core_2_golem_hand",
 			"core_2_golem_head",
 			"core_2_golem_legs",
-			"core_2_golem_torso"
+			"core_2_golem_torso",
+			"arendeth_golem_offhand"
 		],
 		"disabled_slots": [
 			1,
-			2,
 			6,
-			7,
 			14,
-			15
+			9
 		],
 		"right_hand": [
 			{
@@ -109,9 +112,24 @@
 	},
 	"skills": {
 		"milestones": [
-			"core_2_disable_consumption"
+			"core_2_disable_consumption",
+			"core_2_challenge",
+			"core_2_gain_distance",
+			"core_2_knockdown",
+			"core_2_is_that_yours",
+			"core_2_mule",
+			"core_2_shield_wall",
+			"core_2_tough_as_nails",
+			"core_2_boomerang_shield",
+			"core_2_long_lasting_effect",
+			"core_2_clash_of_steel",
+			"core_2_climbing",
+			"core_2_shove_it"
 		],
-		"skills": []
+		"skills": [
+			"core_2_athletics",
+			"core_2_protection"
+		]
 	},
 	"stamina": {
 		"fatigue": 100,

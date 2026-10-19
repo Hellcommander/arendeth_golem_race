@@ -22,6 +22,7 @@
 		"persona",
 		"position_2d",
 		"sight",
+		"skills",
 		"stamina",
 		"statistics",
 		"tags",
@@ -43,17 +44,9 @@
 		],
 		"disabled_slots": [
 			1,
-			2,
 			6,
-			7,
-			8,
-			9,
-			10,
 			14,
-			15,
-			16,
-			17,
-			18
+			9
 		]
 	},
 	"experience_gainer": {
@@ -102,6 +95,46 @@
 		"infravision": false,
 		"range": 10,
 		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_recoverable",
+			"core_2_hidden_compartments",
+			"core_2_bedroll",
+			"core_2_carry_capacity",
+			"core_2_Spore_Bomb",
+			"core_2_muscle_limit",
+			"core_2_druid_staff",
+			"core_2_well_informed",
+			"core_2_adamantine_ingot",
+			"core_2_fancy_flask",
+			"core_2_i_can_take_them",
+			"core_2_multitool",
+			"core_2_looking_for_a_job",
+			"core_2_phasewalker",
+			"core_2_frozen_poison",
+			"core_2_steel_ingot",
+			"core_2_Storm_Rod",
+			"core_2_bronze_ingot",
+			"core_2_Fire_Rod",
+			"core_2_chromium_ingot",
+			"core_2_copper_ingot",
+			"core_2_iron_ingot",
+			"core_2_gold_ingot",
+			"core_2_silver_ingot",
+			"core_2_paper",
+			"core_2_machete",
+			"core_2_mithril_ingot",
+			"core_2_let_there_be_light",
+			"core_2_good_deals",
+			"core_2_sleeping_under_stars",
+			"core_2_nose_for_trouble",
+			"core_2_food_everywhere",
+			"core_2_nice_day_for_fishin"
+		],
+		"skills": [
+			"core_2_adventuring"
+		]
 	},
 	"stamina": {
 		"fatigue": 100,

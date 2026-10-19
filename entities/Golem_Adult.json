@@ -44,19 +44,10 @@
 		],
 		"disabled_slots": [
 			1,
-			2,
 			6,
-			7,
-			8,
-			9,
-			10,
 			14,
-			15,
-			16,
-			17,
-			18
-		]
-	},
+			9
+		],
 	"experience_gainer": {
 		"exp": 5,
 		"level": 1

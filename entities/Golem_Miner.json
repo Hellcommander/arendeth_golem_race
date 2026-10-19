@@ -3,7 +3,10 @@
 		"allies": [
 			"arendeth_golem_tag"
 		],
-		"allow_production": [],
+		"allow_production": [
+			"12",
+			"5"
+		],
 		"behaviors": [],
 		"enemies": []
 	},
@@ -45,12 +48,11 @@
 		],
 		"disabled_slots": [
 			1,
-			2,
 			6,
-			7,
 			14,
-			15
-		],
+			15,
+			0,
+			9		],
 		"right_hand": [
 			{
 				"chance": 1.0,

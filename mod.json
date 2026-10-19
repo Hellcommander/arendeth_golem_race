@@ -1,12 +1,13 @@
 {
 	"author": "Arendeth",
-	"description": "Golem Race: at Construction level 10 learn Golem Assembly, build an Assembly Cradle and perform it to become a golem. Golems never hunger, thirst or tire, wear no clothes, and use swappable golem parts (clay, stone, bronze, steel) in the head, torso, legs and both hand slots. Credits: Arendeth (design); built with Claude (Anthropic); Soulash 2 and core_2 by Wizards of the Code.",
-	"game_required": "0.10.0",
+	"description": "Forgedborn Race: At Construction level 10, learn Forgedborn Assembly, build an Assembly Cradle, and perform the ritual to become Forgedborn. Forgedborn are crafted rather than born and never hunger, thirst, tire, or suffer poison. They wear no clothes and use swappable forged parts (clay, stone, bronze, steel) for their head, torso, legs, and both hands. Credits: Arendeth (design); built with Claude (Anthropic); and Artur Smiarowski for Soulash 2.",
+	"game_required": "0.50.0",
 	"icon": "icon.png",
 	"mods_required": [
 		"core_2"
 	],
-	"name": "Golem Race",
+	"name": "Forgeborn Golem Race",
+	"steam_publish_id": 3821941357,
 	"thumbnail": "thumbnail.png",
-	"version": "0.3.0"
+	"version": "0.3.1"
 }

@@ -3,11 +3,16 @@
 		"allies": [
 			"arendeth_golem_tag"
 		],
-		"allow_production": [],
-		"behaviors": [],
+		"allow_production": [
+			"10"
+		],
+		"behaviors": [
+			5
+		],
 		"enemies": []
 	},
 	"components": [
+		"ability_user",
 		"actor",
 		"artificial_intelligence",
 		"collidable",
@@ -22,6 +27,7 @@
 		"persona",
 		"position_2d",
 		"sight",
+		"skills",
 		"stamina",
 		"statistics",
 		"tags",
@@ -39,19 +45,10 @@
 		],
 		"disabled_slots": [
 			1,
-			2,
 			6,
-			7,
-			8,
-			9,
-			10,
 			14,
-			15,
-			16,
-			17,
-			18
-		]
-	},
+			9
+		],
 	"fighter": {
 		"attackNames": [
 			"Punch",
@@ -94,6 +91,18 @@
 		"infravision": false,
 		"range": 10,
 		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_heavy_duty",
+			"core_2_iron_will",
+			"core_2_ignore_party",
+			"core_2_disable_consumption",
+			"core_2_extra_pockets"
+		],
+		"skills": [
+			"core_2_leadership"
+		]
 	},
 	"stamina": {
 		"fatigue": 100,

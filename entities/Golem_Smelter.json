@@ -39,17 +39,17 @@
 	],
 	"equipment": {
 		"custom_slots": [
+			"core_2_golem_hand",
 			"core_2_golem_head",
 			"core_2_golem_legs",
-			"core_2_golem_torso"
+			"core_2_golem_torso",
+			"arendeth_golem_offhand"
 		],
 		"disabled_slots": [
 			1,
-			2,
 			6,
-			7,
 			14,
-			15
+			9
 		],
 		"right_hand": [
 			{

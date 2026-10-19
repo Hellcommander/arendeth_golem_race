@@ -1,15 +1,5 @@
 {
-	"custom_eq_slots": [
-		{
-			"icon": 23,
-			"id": "arendeth_golem_offhand",
-			"item_types": [
-				29
-			],
-			"name": "Golem Off-Hand",
-			"replace": "left_hand"
-		}
-	],
+
 	"production_actions": [
 		{
 			"animation": "core_2_Become_Vampire",
@@ -45,17 +35,17 @@
 				"rebel": "arendeth_golem_Golem_Rebel",
 				"recruit": "arendeth_golem_Golem_Recruit"
 			},
-			"description": "Golems are made, not born: people of clay, stone and metal, woken by a heart and a name. They never hunger, thirst or tire, shrug off poison and wear no clothes. Their head, torso, legs and both hands are swappable golem parts.",
+			"description": "Forgedborn are living constructs shaped from clay, stone, and metal, then awakened by name and soul. Free from hunger, thirst, fatigue, and poison, they endure where flesh fails. Their head, torso, legs, and hands can be replaced with specialized forged parts..",
 			"id": "arendeth_golem_Golem",
 			"image": 46,
 			"items": [],
-			"name": "Golem",
+			"name": "Forgeborn",
 			"names": {
-				"female": "npc/names/golem_female.txt",
-				"male": "npc/names/golem_male.txt",
-				"settlements": "npc/settlements/golem_settlements.json",
-				"states": "npc/states/golem.json",
-				"surnames": "npc/surnames/golem.json"
+				"female": "npc/names/arendeth_golem_female.txt",
+				"male": "npc/names/arendeth_golem_male.txt",
+				"settlements": "npc/settlements/arendeth_golem_settlements.json",
+				"states": "npc/states/arendeth_golem.json",
+				"surnames": "npc/surnames/arendeth_golem.json"
 			},
 			"orphan_surname": "of the Foundry",
 			"passives": [
@@ -128,6 +118,89 @@
 			"options": [
 				"ritual_birth"
 			]
+		}
+	],
+		"custom_eq_slots": [
+			{
+			"id": "core_2_golem_head",
+			"name": "Golem Head",
+			"item_types": [
+				26
+			],
+			"replace": "head_armor",
+			"icon": 22
+		},
+		{
+			"id": "core_2_golem_torso",
+			"name": "Golem Torso",
+			"item_types": [
+				27
+			],
+			"replace": "torso_armor",
+			"icon": 25
+		},
+		{
+			"id": "core_2_golem_legs",
+			"name": "Golem Legs",
+			"item_types": [
+				28
+			],
+			"replace": "legs_armor",
+			"icon": 24
+		},
+		{
+			"id": "core_2_golem_hand",
+			"name": "Golem Hand",
+			"item_types": [
+				29
+			],
+			"replace": "right_hand",
+			"icon": 23
+		},
+		{
+			"id": "core_2_soul",
+			"name": "Soul",
+			"item_types": [
+				31
+			],
+			"replace": "torso_armor",
+			"icon": 29
+		},
+		{
+			"id": "core_2_meat_head",
+			"name": "Meat Head",
+			"item_types": [
+				32
+			],
+			"replace": "head_armor",
+			"icon": 26
+		},
+		{
+			"id": "core_2_meat_hand",
+			"name": "Meat Hand",
+			"item_types": [
+				34
+			],
+			"replace": "right_hand",
+			"icon": 27
+		},
+		{
+			"id": "core_2_meat_legs",
+			"name": "Meat Legs",
+			"item_types": [
+				33
+			],
+			"replace": "legs_armor",
+			"icon": 28
+		},
+		{
+			"icon": 23,
+			"id": "arendeth_golem_offhand",
+			"item_types": [
+				29
+			],
+			"name": "Golem Off-Hand",
+			"replace": "left_hand"
 		}
 	]
 }

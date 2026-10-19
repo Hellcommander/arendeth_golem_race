@@ -3,7 +3,9 @@
 		"allies": [
 			"arendeth_golem_tag"
 		],
-		"allow_production": [],
+		"allow_production": [
+			"arendeth_golem_become_golem"
+		],
 		"behaviors": [],
 		"enemies": []
 	},
@@ -45,11 +47,11 @@
 		],
 		"disabled_slots": [
 			1,
-			2,
+			9,
 			6,
-			7,
 			14,
-			15
+			15,
+			0
 		],
 		"right_hand": [
 			{
@@ -109,14 +111,38 @@
 	},
 	"skills": {
 		"milestones": [
-			"core_2_disable_consumption",
-			"core_2_head_candle",
+			"arendeth_golem_clay_frame",
+			"arendeth_golem_smelter_crafting",
 			"core_2_bear_trap",
+			"core_2_decorated_stash",
+			"core_2_disable_consumption",
 			"core_2_fireball_trap",
-			"core_2_gas_trap"
-		],
+			"core_2_gas_trap",
+			"core_2_weird_machine",
+			"core_2_amber_spider",
+			"arendeth_golem_field_repair",
+			"arendeth_golem_rapid_repair",
+			"core_2_coffin_key",
+			"core_2_bone_key",
+			"core_2_button",
+			"core_2_bird_skull_figurine",
+			"core_2_shaman_amulet",
+			"core_2_bloody_ring",
+			"core_2_half_coin",
+			"core_2_gemless_ring",
+			"core_2_jax_in_the_box",
+			"core_2_lion_mane_necklace",
+			"core_2_small_cauldron",
+			"core_2_earrings",
+			"core_2_whispering_charm",
+			"core_2_wooden_splinter",
+			"core_2_beautiful_statue",
+			"core_2_death_ring",
+			"core_2_cat_eye_ring",
+			"core_2_doorknob"		],
 		"skills": [
-			"core_2_construction"
+			"core_2_construction",
+			"core_2_imbuing"
 		]
 	},
 	"stamina": {

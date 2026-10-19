@@ -1,0 +1,21 @@
+{
+	"prefixes": [
+		"Brickbound",
+		"Clayborn",
+		"Forgeborn",
+		"Granite",
+		"Iron Hearts",
+		"Kilnfired",
+		"Rivetsworn",
+		"Slatehewn",
+		"Stoneheart",
+		"Steelwrought"
+	],
+	"suffixes": [
+		" Assembly",
+		" Foundry",
+		" Concord",
+		" Works",
+		" Company"
+	]
+}
