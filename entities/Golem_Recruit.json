@@ -24,31 +24,59 @@
 		"persona",
 		"position_2d",
 		"sight",
+		"skills",
 		"stamina",
 		"statistics",
-		"tags",
-		"weapon"
+		"tags"
 	],
 	"corpse": "2747",
 	"description": "A person of clay, stone and metal, assembled rather than born. Their parts can be swapped out.",
 	"dialogues": [
-		"arendeth_golem_aware",
-		"arendeth_golem_fight"
+		"724",
+		"arendeth_golem_fight",
+		"arendeth_golem_aware"
 	],
 	"equipment": {
 		"custom_slots": [
+			"arendeth_golem_offhand",
 			"core_2_golem_hand",
 			"core_2_golem_head",
 			"core_2_golem_legs",
-			"core_2_golem_torso",
-			"arendeth_golem_offhand"
+			"core_2_golem_torso"
 		],
 		"disabled_slots": [
 			1,
+			0,
 			6,
 			14,
+			15,
 			9
 		],
+		"left_hand": [
+			{
+				"chance": 1.0,
+				"id": "core_2_Stone_Shield",
+				"name": "Stone Shield",
+				"stack": 1
+			}
+		],
+		"legs_armor": [
+			{
+				"chance": 1.0,
+				"id": "452",
+				"name": "Plate Greaves",
+				"stack": 1
+			}
+		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": "core_2_Iron_Fist",
+				"name": "Metal Fist",
+				"stack": 1
+			}
+		]
+	},
 	"experience_gainer": {
 		"exp": 5,
 		"level": 1
@@ -96,6 +124,23 @@
 		"range": 10,
 		"threesixty": false
 	},
+	"skills": {
+		"milestones": [
+			"core_2_boomerang_shield",
+			"core_2_challenge",
+			"core_2_disable_consumption",
+			"core_2_real_effort",
+			"core_2_shield_wall",
+			"core_2_blessed_weapon",
+			"core_2_purify_damned",
+			"core_2_last_rites",
+			"core_2_seven_sins"
+		],
+		"skills": [
+			"core_2_protection",
+			"core_2_divine_fists"
+		]
+	},
 	"stamina": {
 		"fatigue": 100,
 		"stamina": 100,
@@ -125,24 +170,7 @@
 	},
 	"tags": [
 		"9",
-		"3",
-		"32",
-		"arendeth_golem_tag"
-	],
-	"weapon": {
-		"attack_speed": 1.0,
-		"critical_hit": 0.0,
-		"damage": [
-			{
-				"dmg_max": 9,
-				"dmg_min": 4,
-				"dmg_type": "physical"
-			}
-		],
-		"hands": 1,
-		"hit_bonus": 0,
-		"parry_bonus": 0,
-		"range": 1,
-		"type": 6
-	}
+		"arendeth_golem_tag",
+		"3"
+	]
 }

@@ -1,13 +1,18 @@
 {
+	"ability_user": [
+		"35"
+	],
 	"artificial_intelligence": {
 		"allies": [
-			"arendeth_golem_tag"
+			"arendeth_golem_tag",
+			"5"
 		],
 		"allow_production": [],
 		"behaviors": [],
 		"enemies": []
 	},
 	"components": [
+		"ability_user",
 		"actor",
 		"artificial_intelligence",
 		"collidable",
@@ -24,15 +29,18 @@
 		"persona",
 		"position_2d",
 		"sight",
+		"skills",
 		"stamina",
 		"statistics",
 		"tags",
 		"weapon"
 	],
 	"corpse": "2747",
-	"description": "A person of clay, stone and metal, assembled rather than born. Their parts can be swapped out.",
+	"description": "A golem engineer: clay, stone and metal at work in your town. No food, no sleep, no clothes, and its head, torso and legs are swappable golem parts.",
 	"dialogues": [
-		"arendeth_golem_aware"
+		"724",
+		"arendeth_golem_aware",
+		"arendeth_golem_fight"
 	],
 	"equipment": {
 		"custom_slots": [
@@ -44,10 +52,21 @@
 		],
 		"disabled_slots": [
 			1,
+			9,
 			6,
 			14,
-			9
+			15,
+			0
 		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": "151",
+				"name": "Hammer",
+				"stack": 1
+			}
+		]
+	},
 	"experience_gainer": {
 		"exp": 5,
 		"level": 1
@@ -67,12 +86,12 @@
 					255
 				],
 				"delay": 0,
-				"index": 21
+				"index": 35
 			}
 		],
 		"random_frame_start": false
 	},
-	"health": 60,
+	"health": 240,
 	"humanoid": {
 		"race": "arendeth_golem_Golem"
 	},
@@ -83,9 +102,9 @@
 		101
 	],
 	"moveable": {
-		"speed": 1.0
+		"speed": 1.2000000476837158
 	},
-	"name": "Golem",
+	"name": "Golem Adult2",
 	"persona": {
 		"occupation": "None"
 	},
@@ -95,6 +114,12 @@
 		"range": 10,
 		"threesixty": false
 	},
+	"skills": {
+		"milestones": [
+			"core_2_disable_consumption"
+		],
+		"skills": []
+	},
 	"stamina": {
 		"fatigue": 100,
 		"stamina": 100,
@@ -102,24 +127,24 @@
 	},
 	"statistics": {
 		"dexterity": [
-			5,
-			8
+			16,
+			20
 		],
 		"endurance": [
-			12,
-			16
+			28,
+			32
 		],
 		"intelligence": [
-			6,
-			9
+			20,
+			24
 		],
 		"strength": [
-			12,
-			16
+			28,
+			32
 		],
 		"willpower": [
-			10,
-			14
+			20,
+			26
 		]
 	},
 	"tags": [
@@ -133,8 +158,8 @@
 		"critical_hit": 0.0,
 		"damage": [
 			{
-				"dmg_max": 5,
-				"dmg_min": 2,
+				"dmg_max": 9,
+				"dmg_min": 4,
 				"dmg_type": "physical"
 			}
 		],
@@ -142,6 +167,6 @@
 		"hit_bonus": 0,
 		"parry_bonus": 0,
 		"range": 1,
-		"type": 6
+		"type": 2
 	}
 }

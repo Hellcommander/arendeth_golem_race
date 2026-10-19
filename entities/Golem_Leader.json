@@ -1,7 +1,10 @@
 {
+	"ability_user": [
+		"35"
+	],
 	"artificial_intelligence": {
 		"allies": [
-			"arendeth_golem_tag"
+			"5"
 		],
 		"allow_production": [
 			"10"
@@ -11,12 +14,15 @@
 		],
 		"enemies": []
 	},
+	"category_id": 8,
 	"components": [
 		"ability_user",
 		"actor",
 		"artificial_intelligence",
 		"collidable",
+		"dialogues",
 		"equipment",
+		"experience_gainer",
 		"fighter",
 		"glyph",
 		"health",
@@ -35,6 +41,13 @@
 	],
 	"corpse": "2747",
 	"description": "A person of clay, stone and metal, assembled rather than born. Their parts can be swapped out.",
+	"dialogues": [
+		"724",
+		"402",
+		"403",
+		"arendeth_golem_aware",
+		"arendeth_golem_fight"
+	],
 	"equipment": {
 		"custom_slots": [
 			"core_2_golem_hand",
@@ -45,10 +58,25 @@
 		],
 		"disabled_slots": [
 			1,
+			9,
 			6,
 			14,
-			9
+			15,
+			0
 		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": "151",
+				"name": "Hammer",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 5,
+		"level": 15
+	},
 	"fighter": {
 		"attackNames": [
 			"Punch",
@@ -151,6 +179,6 @@
 		"hit_bonus": 0,
 		"parry_bonus": 0,
 		"range": 1,
-		"type": 6
+		"type": 2
 	}
 }

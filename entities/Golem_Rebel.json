@@ -4,7 +4,9 @@
 			"arendeth_golem_tag"
 		],
 		"allow_production": [],
-		"behaviors": [],
+		"behaviors": [
+			12
+		],
 		"enemies": []
 	},
 	"components": [
@@ -24,16 +26,20 @@
 		"persona",
 		"position_2d",
 		"sight",
+		"skills",
 		"stamina",
 		"statistics",
-		"tags",
-		"weapon"
+		"tags"
 	],
 	"corpse": "2747",
 	"description": "A person of clay, stone and metal, assembled rather than born. Their parts can be swapped out.",
 	"dialogues": [
 		"987",
-		"arendeth_golem_fight"
+		"core_2_rebellion",
+		"core_2_rebellion_whispers",
+		"arendeth_golem_aware",
+		"arendeth_golem_fight",
+		"724"
 	],
 	"equipment": {
 		"custom_slots": [
@@ -49,6 +55,23 @@
 			14,
 			9
 		],
+		"left_hand": [
+			{
+				"chance": 1.0,
+				"id": "2187",
+				"name": "Jeweled Dagger",
+				"stack": 1
+			}
+		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": "core_2_Brass_Knuckles",
+				"name": "Brass Knuckles",
+				"stack": 1
+			}
+		]
+	},
 	"experience_gainer": {
 		"exp": 10,
 		"level": 2
@@ -73,7 +96,7 @@
 		],
 		"random_frame_start": false
 	},
-	"health": 180,
+	"health": 250,
 	"humanoid": {
 		"race": "arendeth_golem_Golem"
 	},
@@ -96,6 +119,27 @@
 		"range": 10,
 		"threesixty": false
 	},
+	"skills": {
+		"milestones": [
+			"core_2_five_finger_punch",
+			"core_2_loner",
+			"core_2_rollback_amp",
+			"core_2_vanish",
+			"core_2_backstab",
+			"core_2_hide_identity",
+			"core_2_righteous_pummel",
+			"core_2_rummage",
+			"core_2_anatomy",
+			"core_2_fan_of_knives",
+			"core_2_poison_weapons",
+			"core_2_forgettable_face",
+			"core_2_stun_bomb"
+		],
+		"skills": [
+			"core_2_thievery",
+			"core_2_divine_fists"
+		]
+	},
 	"stamina": {
 		"fatigue": 100,
 		"stamina": 100,
@@ -103,46 +147,30 @@
 	},
 	"statistics": {
 		"dexterity": [
-			10,
-			14
+			53,
+			57
 		],
 		"endurance": [
-			20,
-			26
+			24,
+			28
 		],
 		"intelligence": [
-			8,
-			11
+			13,
+			17
 		],
 		"strength": [
-			20,
-			24
+			24,
+			28
 		],
 		"willpower": [
-			16,
-			22
+			34,
+			38
 		]
 	},
 	"tags": [
 		"9",
+		"arendeth_golem_tag",
 		"3",
-		"32",
-		"arendeth_golem_tag"
-	],
-	"weapon": {
-		"attack_speed": 1.0,
-		"critical_hit": 0.0,
-		"damage": [
-			{
-				"dmg_max": 9,
-				"dmg_min": 4,
-				"dmg_type": "physical"
-			}
-		],
-		"hands": 1,
-		"hit_bonus": 0,
-		"parry_bonus": 0,
-		"range": 1,
-		"type": 6
-	}
+		"32"
+	]
 }

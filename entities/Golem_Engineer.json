@@ -1,15 +1,17 @@
 {
+	"ability_user": [
+		"35"
+	],
 	"artificial_intelligence": {
 		"allies": [
-			"arendeth_golem_tag"
+			"5"
 		],
-		"allow_production": [
-			"arendeth_golem_become_golem"
-		],
+		"allow_production": [],
 		"behaviors": [],
 		"enemies": []
 	},
 	"components": [
+		"ability_user",
 		"actor",
 		"artificial_intelligence",
 		"collidable",
@@ -35,15 +37,17 @@
 	"corpse": "2747",
 	"description": "A golem engineer: clay, stone and metal at work in your town. No food, no sleep, no clothes, and its head, torso and legs are swappable golem parts.",
 	"dialogues": [
-		"402",
-		"403",
-		"arendeth_golem_aware"
+		"724",
+		"arendeth_golem_aware",
+		"arendeth_golem_fight"
 	],
 	"equipment": {
 		"custom_slots": [
+			"core_2_golem_hand",
 			"core_2_golem_head",
 			"core_2_golem_legs",
-			"core_2_golem_torso"
+			"core_2_golem_torso",
+			"arendeth_golem_offhand"
 		],
 		"disabled_slots": [
 			1,
@@ -97,7 +101,7 @@
 		101
 	],
 	"moveable": {
-		"speed": 1.2
+		"speed": 1.2000000476837158
 	},
 	"name": "Golem Engineer",
 	"persona": {
@@ -139,7 +143,8 @@
 			"core_2_beautiful_statue",
 			"core_2_death_ring",
 			"core_2_cat_eye_ring",
-			"core_2_doorknob"		],
+			"core_2_doorknob"
+		],
 		"skills": [
 			"core_2_construction",
 			"core_2_imbuing"
@@ -192,6 +197,6 @@
 		"hit_bonus": 0,
 		"parry_bonus": 0,
 		"range": 1,
-		"type": 6
+		"type": 2
 	}
 }
